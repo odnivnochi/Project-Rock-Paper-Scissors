@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+   }
+body{
+    background-color: #B9F8D3;
+    font-family: 'Grape Nuts', cursive;
+    font-size: large;
+    font-size: 40px;
+    
+}
+.main img{
+    width: 55%;
+    
+}
+.main button{
+    border: none !important;
+    font-size:0;
+    background: transparent;
+}
+.main{
+
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.maincenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+h1{
+    text-align: center;
+    padding: 50px;
+    color:#8FBDD3;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    color: #8FBDD3;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#resultComputer{
+  color: #F56D91;
+}
+#resultPlayer{
+    color: #9FC088;
+  }
